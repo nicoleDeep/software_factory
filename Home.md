@@ -1,6 +1,6 @@
 # 软件工厂 · 首页
 
-> APP 产线初版：v0.1.0。先用真实 APP 验证，再以问题和证据改进。游戏产线暂未实施。
+> APP 产线 v0.1.1（初版基线 + 试运行清单）。先用真实 APP 验证，再以问题和证据改进。游戏产线暂未实施。
 
 ## 开发一个 APP
 
@@ -8,7 +8,7 @@
 
 ## 改进工厂
 
-[记录问题](<templates/improvement.md>) → [评测与审批规则](<factory/improvement-loop.md>) → [改进索引](<improvements/README.md>) → [版本记录](<CHANGELOG.md>)
+[试运行验证清单](<factory/first-project-trial.md>) → [记录问题](<templates/improvement.md>) → [评测与审批规则](<factory/improvement-loop.md>) → [改进索引](<improvements/README.md>) → [版本记录](<CHANGELOG.md>)
 
 ## 导航
 

@@ -2,7 +2,7 @@
 
 以 **Obsidian + Git + DSH** 管理可追溯、可验证、可改进的软件生产流程。
 
-- 当前可用产线：**APP v0.1.0**（文档、项目级 Skill 和模板基线，尚未经真实 APP 项目验证）。
+- 当前可用产线：**APP v0.1.1**（文档、项目级 Skill、模板基线与试运行验证清单，尚未经真实 APP 项目验证）。
 - 后续产线：**游戏**（仅预留架构位置，未实施）。
 - 本仓库管理工厂规范与知识，不承载所有产品源码，不是已经部署的自动化 CI/CD 平台。
 - 远程仓库：[nicoleDeep/software_factory](https://github.com/nicoleDeep/software_factory)。

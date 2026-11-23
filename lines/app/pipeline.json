@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "line": "app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "execution_mode": "human-agent-assisted",
   "spec": "lines/app/pipeline.md",
   "quality_spec": "lines/app/quality-gates.md",

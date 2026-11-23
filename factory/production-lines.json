@@ -5,7 +5,7 @@
       "id": "app",
       "name": "APP 产线",
       "status": "baseline",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "entry": "lines/app/README.md",
       "pipeline": "lines/app/pipeline.json"
     },

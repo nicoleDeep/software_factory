@@ -3,7 +3,7 @@ type: factory-improvement
 id: "IMP-待填"
 status: observed
 line: app
-baseline_version: "0.1.0"
+baseline_version: "0.1.1"
 ---
 
 # 工厂改进提案

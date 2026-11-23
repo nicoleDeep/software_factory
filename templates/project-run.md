@@ -3,7 +3,7 @@ type: project-run
 status: proposed
 project_id: "待填写"
 line: app
-line_version: "0.1.0"
+line_version: "0.1.1"
 factory_commit: "待填写确切 SHA"
 ---
 
