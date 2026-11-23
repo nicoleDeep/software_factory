@@ -1,0 +1,21 @@
+# Local Obsidian settings, plugin state and frequently changing layout
+/.obsidian/
+/.trash/
+
+# Credentials and private environment configuration (review staged diff as well)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local runtime and generated indexes/artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+/.local/
+/.cache/
+/artifacts/
+/indexes/

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "line": "app",
+  "version": "0.1.0",
+  "execution_mode": "human-agent-assisted",
+  "spec": "lines/app/pipeline.md",
+  "quality_spec": "lines/app/quality-gates.md",
+  "nodes": [
+    {"id": "APP-01", "name": "机会判断与立项", "next": ["APP-02"]},
+    {"id": "APP-02", "name": "需求定义与验收设计", "next": ["APP-03"], "gate": "G1"},
+    {"id": "APP-03", "name": "交互与视觉设计", "next": ["APP-04"]},
+    {"id": "APP-04", "name": "技术方案与风险验证", "next": ["APP-05"], "gate": "G2"},
+    {"id": "APP-05", "name": "工程基线与任务拆解", "next": ["APP-06"]},
+    {"id": "APP-06", "name": "增量开发与代码审查", "next": ["APP-07"]},
+    {"id": "APP-07", "name": "集成测试与质量验证", "next": ["APP-08", "APP-06"], "gate": "G3"},
+    {"id": "APP-08", "name": "业务验收与发布决策", "next": ["APP-09"], "gate": "G4"},
+    {"id": "APP-09", "name": "发布与交付", "next": ["APP-10"]},
+    {"id": "APP-10", "name": "运行观察与知识沉淀", "next": [], "gate": "G5"}
+  ],
+  "gates": [
+    {"id": "G1", "after": "APP-02", "name": "价值与范围确认", "approval": "human"},
+    {"id": "G2", "after": "APP-04", "name": "方案与风险确认", "approval": "human"},
+    {"id": "G3", "after": "APP-07", "name": "质量放行", "approval": "human"},
+    {"id": "G4", "after": "APP-08", "name": "业务验收与发布批准", "approval": "human"},
+    {"id": "G5", "after": "APP-10", "name": "运行效果确认", "approval": "human"}
+  ],
+  "notes": "next 是正常推进与已标示返工路径，不是调度程序；其他失败回退、门禁和裁剪以 Markdown 规范及项目记录为准。"
+}
